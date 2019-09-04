@@ -1,0 +1,264 @@
+body {
+    background: #F2F4F4; 
+}
+
+.top-bar {
+    background: #2F2B43;
+    padding: 5px 0;
+}
+
+.noborder {
+    border-left: none;
+}
+
+.top-bar nav {
+    float: right;
+}
+
+.top-bar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.top-bar li {
+    display: inline;
+    margin-left: 5px;
+    border-left: 1px solid gray;
+}
+
+.top-bar li.first {
+    border-left: none;
+}
+
+.top-bar a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: gray;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2px 6px;
+}
+
+
+.branding ul {
+    list-style: none;
+    text-align: right;
+    margin-top: 60px;
+}
+
+.branding li {
+    display: inline;
+}
+
+.branding a {
+    font-family: oswald;
+    font-size: 20px;
+    padding: 8px 15px;
+    background: #2F2B43;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.branding a:hover {
+    background: orange;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.readmore {
+    position: absolute;
+    bottom: 217px;
+    left: 370px;
+    z-index: 1;
+    font-family: oswald;
+    font-size: 20px;
+    padding: 12px 15px;
+    background: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero ul {
+    list-style: none;
+    text-align: center;
+}
+
+.hero li {
+    display: inline;
+}
+
+.hero ul a {
+    background: gray;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.hero a:hover {
+    background: orange;
+}
+
+.content {
+    color: #2F2B43;
+    font-family: oswald;
+    border-top: 1px solid #181b1e14;
+    text-align: left;
+}
+
+.content h2 {
+    font-size: 45px;
+}
+
+.content p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content img {
+    width: 275px;
+}
+
+.more {
+    background: #2F2B43;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 10px 0 0;
+    display: inline-block;
+}
+
+.border-right {
+    border-right: 1px solid #181b1e14;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+footer {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(48, 83, 123), rgb(16, 14, 22));
+    height: 600px;
+}
+
+footer h2 {
+    font-size: 35px;
+    font-family: oswald;
+}
+
+
+footer a {
+    font-family: oswald;
+    margin-top: 20px;
+    background: rgb(47, 82, 121);
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.footer-inner ul {
+    padding-left:0;
+}
+
+.services ul{
+    list-style-image: url("../media/rsz_2gear.png");
+}
+
+.opportunities ul {
+    list-style-image: url("../media/rsz_1talktextbubble.png");
+}
+.services li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 44px;
+    margin-left: 30px;
+}
+
+
+.opportunities li {
+    color: gray;
+    line-height: 22px;
+    margin-left: 30px;
+}
+
+.opportunities span {
+    color: white;
+}
+
+
+.day {
+    font-size: 25px;
+}
+
+.month {
+    font-size: 15px;
+}
+
+.dateblock {
+    text-align: center;
+    color: #fff;
+    font-family: 'Oswald';
+}
+
+.dateblock p {
+    margin: 0;
+}
+
+.newscontent h3, .newscontent p {
+    margin: 0;
+}
+
+.newscontent h3 {
+    font-weight: normal;
+}
+
+.newscontent p {
+    color: gray;
+}
+
+.dateOne {
+    background: rgb(172, 88, 79);
+    border-radius: 5px;
+}
+
+.dateTwo {
+    background: rgb(172, 164, 55);
+    border-radius: 5px;
+}
+
+.dateThree {
+    background: rgb(187, 127, 15);
+    border-radius: 5px;
+}
+
+.news ul {
+    list-style: none;
+}
+
+
+
+.news span {
+    color: white;
+}
+
+.news li {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    height: 50px;
+    background: black;
+    color: gray;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
